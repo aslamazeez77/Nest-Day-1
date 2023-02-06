@@ -1,0 +1,15 @@
+.first{
+    border: px;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+}
+#second{
+    text-align: left;
+}
+#third{
+    text-align: center;
+}
+#fourth{
+    text-align: right;
+}
