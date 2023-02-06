@@ -1,15 +1,50 @@
 .first{
-    border: px;
-    border-style: groove;
+    display: flex;
+    justify-content:space-between;
+}
+body {
+    margin: 0;
+    font-family: cursive;
+  }
+  
+  .hero-image {
+    background-image: url("./images/20221221202700_DEM_5598.jpg");
+    background-color: #cccccc;
+    height: 760px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1900px 1300px;
+    position: relative;
+
+  }
+  
+  .hero-text {
+    text-align: center;
+    text-decoration: wavy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 50%;
+  }
+  #a{
+    text-decoration: none;
+    cursor: pointer;
+    color: chartreuse;
+  }
+  #b{
+    text-decoration: none;
+    cursor: pointer;
+    color: darkgoldenrod;
+  }
+  #c
+  {
+    text-decoration: none;
+    cursor: pointer;
+    color: yellowgreen;
+  }
+  .h{
     display: flex;
     justify-content: center;
-}
-#second{
-    text-align: left;
-}
-#third{
-    text-align: center;
-}
-#fourth{
-    text-align: right;
-}
+  }
